@@ -1,4 +1,4 @@
-# PCAP Forensics Analyzer
+# PCAP Forensics Analyser
 
 A command-line forensic analysis tool that dissects `.pcap` network capture files, reconstructs TCP sessions, extracts indicators of compromise (IOCs), detects protocol anomalies, and generates structured JSON reports ready for downstream tooling or threat intel pipelines.
 
@@ -41,15 +41,15 @@ Rule-based engine with the following detections out of the box:
 Parses TLS ClientHello manually to extract the cipher suite list, extension types, elliptic curves, and point formats. Concatenates fields per the JA3 spec and produces an MD5 hash. Known malicious JA3 hashes can be compared against public blocklists.
 
 **Enrichment-Ready Architecture**
-Every IOC in the output carries an `enrichment: null` field. A plug-in enrichment module (VirusTotal, AbuseIPDB, Shodan) can populate these fields without touching any core analyzer code.
+Every IOC in the output carries an `enrichment: null` field. A plug-in enrichment module (VirusTotal, AbuseIPDB, Shodan) can populate these fields without touching any core analyser code.
 
 ---
 
 ## Installation
 
 ```bash
-git clone https://github.com/ashiii27/pcap-analyzer.git
-cd pcap-analyzer
+git clone https://github.com/Ashiii27/PCAP-Forensics-Analyser.git
+cd PCAP-Forensics-Analyser
 pip install -r requirements.txt
 ```
 
@@ -211,7 +211,7 @@ pcap-analyzer/
 └── README.md
 ```
 
-The `enrichment/` module is intentionally isolated. Adding VirusTotal or AbuseIPDB integration requires only changes inside that directory — zero modifications to the core analyzer.
+The `enrichment/` module is intentionally isolated. Adding VirusTotal or AbuseIPDB integration requires only changes inside that directory — zero modifications to the core analyser.
 
 ---
 
@@ -249,4 +249,4 @@ MIT License — see [LICENSE](./LICENSE) for details.
 ## Author
 
 **Ash** — B.Tech CSE, MMMUT Gorakhpur
-[GitHub](https://github.com/ashiii27) · [TryHackMe](https://tryhackme.com/p/ashiii27)
+[GitHub](https://github.com/Ashiii27) · [TryHackMe](https://tryhackme.com/p/ashiii27)
