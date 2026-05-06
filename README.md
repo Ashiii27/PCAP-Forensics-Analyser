@@ -249,4 +249,4 @@ MIT License — see [LICENSE](./LICENSE) for details.
 ## Author
 
 **Ash** — B.Tech CSE, MMMUT Gorakhpur
-[GitHub](https://github.com/Ashiii27) · [TryHackMe](https://tryhackme.com/p/ashiii27)
+[GitHub](https://github.com/Ashiii27) · [TryHackMe](https://tryhackme.com/p/Ashiii27)
